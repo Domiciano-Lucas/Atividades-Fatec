@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botão Fugitivo</title>
     <style>
-        /* Configuração do corpo da página para ocupar toda a tela e centralizar o botão */
+        /* Configuração do corpo da página para ocupar toda a tela e centralizar o botão e não ultrapassar os limites visiveis da pagina*/
         body {
             position: relative;
             height: 100vh;
@@ -13,6 +13,7 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
+            background-color: black;
         }
         /* Estilos do botão */
         button {
@@ -24,6 +25,10 @@
             font-size: 16px; /* Define o tamanho da fonte */
             outline: none; /* Remove contorno ao focar */
             user-select: none; /* Impede que o texto do botão seja selecionado */
+            background-color: blue;
+            color: white; /* Cor do texto */
+            font-weight: bold; /* Negrito */
+            border: green 4px solid; /* Borda verde */
         }
     </style>
 </head>
